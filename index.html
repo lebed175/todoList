@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Лист задач</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="input-and-options">
+            <div class="input-and-options__place input-tasks">
+                <input type="text" class="input-tasks__input" id="main-input" placeholder="Введите заметку">
+                <button class="input-tasks__button">+</button>
+            </div>
+            <div class="input-and-options__options options">
+                <button class="options__ended button non-active">Завершённые</button>
+                <button class="options__active button is-acive">Активные</button>
+            </div>
+        </div>
+        <div class="tasks-place">
+        </div>
+        <div class="hint">
+            <div class="hint-gray each-hint">
+                <div class="hint-gray__square"></div>
+                <span class="hint-gray__text">Задание не начато</span>
+            </div>
+            <div class="hint-green each-hint">
+                <div class="hint-green__square"></div>
+                <span class="hint-green__text">Задание выполнено</span>
+            </div>
+            <div class="hint-red each-hint">
+                <div class="hint-red__square"></div>
+                <span class="hint-red__text">Задание в процессе</span>
+            </div>
+        </div>
+    </main>
+    <script src="/script.js"></script>
+</body>
+
+</html>
